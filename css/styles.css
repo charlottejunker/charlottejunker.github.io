@@ -245,7 +245,7 @@ a.social:hover {
   }
 
   .card {
-    max-width: 500px;
+    width: 50%;
   }
 
   header {
