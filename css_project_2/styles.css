@@ -1,0 +1,314 @@
+/* main styles*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f2f7;
+  text-align: center;
+  color: #242d42;
+}
+
+h1 {
+  color: #5b6fa4;
+}
+
+ul {
+  margin: 0;
+  padding: 0;}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #242d42;
+}
+
+a:hover {
+  color: #9ca9c9;
+}
+
+.main-header, .portfolio, .contact, .footer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* header  */
+
+.main-header {
+  margin: 0 auto 1em;
+}
+
+.nav a {
+  /*background-color: #fff;*/
+  display: inline-block;
+  margin-top: 5px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  width: 90%;
+  font-size: 1em;
+}
+
+/* home section */
+
+.profile-card {
+  background-color: #9ca9c9;
+  padding: 1em;
+}
+
+.profile {
+  margin: 0;
+  padding: 1em;
+  font-size: 1.1em;
+}
+
+.profile-photo {
+  border-radius: 100%;
+  width: 50%;
+  max-width: 250px;
+  padding: 1em 0;
+}
+
+/* portfolio section*/
+
+.portfolio {
+  padding: 2.5em 0 0;
+}
+
+.portfolio p {
+  padding: 0 0 2em;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1em;
+  padding-bottom: 1em;
+}
+
+/* skills section */
+
+.skills {
+  background-color: #9ca9c9;
+  padding: 2.5em 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skills ul {
+  padding: .5em 0 1em;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.skills li {
+  text-align: left;
+}
+
+.badges li {
+  display: block;
+  min-height: 40px;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  padding: 0 0 0 70px;
+  margin: 20px 0 0;
+  font-size: .8em;
+}
+
+.badges li.badge-1 {
+  background-image: url('../img_project_2/artdirection_badge.png');
+}
+
+.badges li.badge-2 {
+  background-image: url('../img_project_2/imgdelivery_badge.png');
+}
+
+.badges li.badge-3 {
+  background-image: url('../img_project_2/positionpagecontent_badge.png');
+}
+
+.badges li.badge-4 {
+  background-image: url('../img_project_2/csslayoutproject_badge.png');
+}
+
+.badges li.badge-5 {
+  background-image: url('../img_project_2/float_badge.png');
+}
+
+/* contact */
+
+.contact {
+  padding: 2.5em 0;
+  border-bottom: solid 1px #9ca9c9;
+  font-size: 1.1em;
+}
+
+.contact ul li {
+  padding-top: 1.5em;;
+}
+
+.contact ul li a {
+  margin-left: 1em;
+}
+
+/* footer */
+
+.footer {
+  padding: 1em 0;
+  margin-bottom: 2em;
+  font-weight: 700;
+  font-size: .8em;
+}
+
+.tablet-desktop-footer {
+  display: none;
+}
+
+.footer-name {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+
+.mobile-footer {
+  display: inline-block;
+  float: right;
+  margin: 0;
+}
+
+
+/* media queries */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (min-width: 768px) {
+
+  /* tablet nav */
+
+  .nav li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+
+  /* tablet profile */
+
+  .profile-card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .profile-photo {
+    padding: 0;
+    height: 160px;
+    width: 160px;
+    margin: 0 2em;
+  }
+
+  /* tablet portfolio */
+
+  .portfolio {
+  }
+
+  .portfolio div {
+    display: inline-block;
+    width: 45%;
+    margin: 2.3%;
+    vertical-align: top;
+  }
+
+  /* tablet skills */
+
+  .badges {
+    text-align: left;
+  }
+  .badges li {
+    display: inline-block;
+    width: 25%;
+    margin: 3%;
+    vertical-align: text-top;
+  }
+
+  /* tablet footer */
+
+  .mobile-footer {
+    display: none;
+  }
+
+  .footer {
+    padding-bottom: 2em;
+  }
+
+  .footer-name {
+    margin-top: 10px;
+  }
+
+  .tablet-desktop-footer {
+    display: block;
+    float: right;
+  }
+
+  .tablet-desktop-footer li  {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* desktop nav */
+
+  .main-header h1 {
+    float: left;
+  }
+
+  .nav {
+    float: right;
+    margin-top: 10px;
+  }
+
+  /* desktop portfolio */
+
+  .portfolio div {
+    width: 28%;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+
+  /* large desktop portfolio */
+
+  .portfolio div {
+    width: 20%;
+  }
+
+  /* large desktop skills */
+
+  .badges li {
+    width: 15%;
+    margin: 2%;
+}

@@ -179,6 +179,10 @@ a.social:hover {
   padding: 0;
 }
 
+#gallery li h3 {
+  text-align: center;
+}
+
 #gallery img {
   max-width: 100%;
 }
