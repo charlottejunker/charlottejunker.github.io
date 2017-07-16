@@ -1,0 +1,19 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $white;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.project {
+  h1 {
+    font-size: 7.5vh;
+    margin: 3.75vh 0;
+  }
+  :hover, :active {
+    cursor: pointer;
+    color: $accent-color;
+  }
+}

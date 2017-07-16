@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  display: flex;
+  height: 100vh;
+}
