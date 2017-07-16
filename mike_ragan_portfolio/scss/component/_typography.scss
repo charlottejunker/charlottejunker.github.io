@@ -10,7 +10,10 @@ h1 {
 .project {
   h1 {
     font-size: 7.5vh;
-    margin: 3.75vh 0;
+    margin: 2.916vh;
+    @media #{$tablet-bp} {
+        margin: 3.75vh;
+      }
   }
   :hover, :active {
     cursor: pointer;
