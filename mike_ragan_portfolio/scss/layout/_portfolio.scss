@@ -12,7 +12,9 @@
 
 #project1 {
   margin-top: 5vh;
-
+  @media #{$tablet-bp} {
+      margin:0;
+    }
 }
 #project6 {
   margin-bottom: 5vh;
