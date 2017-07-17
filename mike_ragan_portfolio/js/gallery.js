@@ -1,3 +1,10 @@
+//make social icon div same width as logo in mobile
+const $logoWidth = $("#landscape-logo").css("width");
+$(document).ready(function() {
+  $("#social").css("width", $logoWidth);
+});
+
+
 //change the background of the portfolio menu on click
 $('.project').mousedown(function() {
    $(this).parents().css(

@@ -372,27 +372,35 @@ textarea {
 body {
   background-color: #3C3C3B;
   display: flex;
-  height: 90vh; }
-  @media screen and (min-width: 768px) {
-    body {
-      height: 100vh; } }
+  height: 100vh; }
 
 #index {
   flex-direction: column;
   align-items: center; }
-  #index * {
-    padding: 20px; }
   @media screen and (min-width: 768px) {
     #index {
       flex-direction: row;
       justify-content: space-between; } }
 
 #hero {
-  max-width: 90%; }
+  height: 50vh;
+  max-width: 90%;
+  padding: 20px 0; }
   @media screen and (min-width: 768px) {
     #hero {
-      width: 50%;
-      margin-right: 5%; } }
+      margin-right: 10vw;
+      height: 60vh; } }
+
+#social {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh; }
+  @media screen and (min-width: 768px) {
+    #social {
+      position: absolute;
+      bottom: 5vh;
+      right: 5vh;
+      width: 20vh; } }
 
 .nav {
   transform-origin: 50% 50%;
@@ -470,8 +478,9 @@ h1 {
   color: #C05A5A; }
 
 #landscape-logo {
-  width: 90%;
-  max-height: 40%; }
+  height: 30vh;
+  max-width: 90%;
+  padding-bottom: 20px; }
   @media screen and (min-width: 768px) {
     #landscape-logo {
       display: none; } }
@@ -482,22 +491,11 @@ h1 {
     #portrait-logo {
       display: flex;
       align-self: flex-end;
-      min-width: 20%;
-      max-height: 60%; } }
+      width: 30vh;
+      margin: 0 0 5vh 5vh; } }
 
-#social {
-  display: flex; }
-  #social * {
-    padding: 5px;
-    max-width: 15vw; }
-  @media screen and (min-width: 768px) {
-    #social {
-      display: flex;
-      flex-direction: row;
-      position: absolute;
-      max-height: 15vh;
-      top: 84vh;
-      right: 2vh; } }
+#social a {
+  max-width: 25%; }
 
 #home {
   top: 2vh;

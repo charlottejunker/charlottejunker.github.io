@@ -1,6 +1,7 @@
 #landscape-logo {
-  width: 90%;
-  max-height: 40%;
+  height: 30vh;
+  max-width: 90%;
+  padding-bottom: 20px;
   @media #{$tablet-bp} {
     display: none;
 
@@ -11,25 +12,20 @@
   @media #{$tablet-bp} {
       display: flex;
       align-self: flex-end;
-      min-width: 20%;
-      max-height: 60%;
+      width: 30vh;
+      margin: 0 0 5vh 5vh;
     }
 }
 
 #social {
-  display: flex;
-  * {
-    padding: 5px;
-    max-width: 15vw;
+
+  a {
+    max-width: 25%;
   }
-  @media #{$tablet-bp} {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    max-height: 15vh;
-    top: 84vh;
-    right: $icon-margin;
+
+  img {
   }
+
 }
 
 #overlay {
