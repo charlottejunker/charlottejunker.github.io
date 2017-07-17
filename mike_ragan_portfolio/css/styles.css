@@ -372,7 +372,10 @@ textarea {
 body {
   background-color: #3C3C3B;
   display: flex;
-  height: 100vh; }
+  height: 90vh; }
+  @media screen and (min-width: 768px) {
+    body {
+      height: 100vh; } }
 
 #index {
   flex-direction: column;
@@ -410,18 +413,6 @@ body {
 
 .project h1 {
   margin: 0; }
-
-#project1 {
-  margin-top: 5vh; }
-  @media screen and (min-width: 768px) {
-    #project1 {
-      margin: 0; } }
-
-#project6 {
-  margin-bottom: 5vh; }
-  @media screen and (min-width: 768px) {
-    #project6 {
-      margin: 0; } }
 
 .slide {
   display: none; }
@@ -470,10 +461,10 @@ h1 {
 
 .project h1 {
   font-size: 7.5vh;
-  margin: 2.8vh; }
+  margin: 2.91vh 0; }
   @media screen and (min-width: 768px) {
     .project h1 {
-      margin: 3.75vh; } }
+      margin: 3.75vh 0; } }
 .project :hover, .project :active {
   cursor: pointer;
   color: #C05A5A; }

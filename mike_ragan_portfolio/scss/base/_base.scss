@@ -5,5 +5,8 @@
 body {
   background-color: $bg-color;
   display: flex;
-  height: 100vh;
+  height: 90vh;
+  @media #{$tablet-bp} {
+    height: 100vh;
+  }
 }

@@ -10,9 +10,9 @@ h1 {
 .project {
   h1 {
     font-size: 7.5vh;
-    margin: 2.8vh;
+    margin: 2.91vh 0;
     @media #{$tablet-bp} {
-        margin: 3.75vh;
+        margin: 3.75vh 0;
       }
   }
   :hover, :active {
