@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="529px" height="444px" viewBox="0 0 529 444" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-822.000000, -281.000000)">
+            <g id="Group-2" transform="translate(822.000000, 281.000000)">
+                <ellipse id="Oval" fill="#FFFFFF" cx="133.95674" cy="308.265746" rx="133.95674" ry="135.265746"></ellipse>
+                <ellipse id="Oval-Copy" fill="#C05A5A" cx="275.909613" cy="153.394052" rx="151.909613" ry="153.394052"></ellipse>
+                <ellipse id="Oval-Copy-2" fill="#B4B4B4" cx="441.426316" cy="230.280634" rx="87.4263165" ry="88.2806339"></ellipse>
+                <text id="About" font-family="Montserrat-Bold, Montserrat" font-size="40" font-weight="bold" fill="#3C3C3B">
+                    <tspan x="70.1567399" y="325">About</tspan>
+                </text>
+                <text id="Portfolio" font-family="Montserrat-Bold, Montserrat" font-size="40" font-weight="bold" fill="#3C3C3B">
+                    <tspan x="186.246408" y="170">Portfolio</tspan>
+                </text>
+                <text id="FAQ" font-family="Montserrat-Bold, Montserrat" font-size="40" font-weight="bold" fill="#3C3C3B">
+                    <tspan x="398.48232" y="246">FAQ</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

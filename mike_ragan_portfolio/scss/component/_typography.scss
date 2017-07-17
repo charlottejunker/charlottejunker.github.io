@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $white;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+.project {
+  h1 {
+    font-size: 7.5vh;
+    margin: 2.8vh;
+    @media #{$tablet-bp} {
+        margin: 3.75vh;
+      }
+  }
+  :hover, :active {
+    cursor: pointer;
+    color: $accent-color;
+  }
+}

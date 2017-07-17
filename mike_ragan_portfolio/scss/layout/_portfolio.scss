@@ -1,0 +1,53 @@
+#portfolio-body {
+  color: $white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project {
+  h1 {
+    margin: 0;
+  }
+}
+
+#project1 {
+  margin-top: 5vh;
+  @media #{$tablet-bp} {
+      margin:0;
+    }
+}
+#project6 {
+  margin-bottom: 5vh;
+  @media #{$tablet-bp} {
+      margin:0;
+    }
+}
+
+.slide {
+  display: none;
+}
+
+#overlay {
+  background-color: $bg-color;
+  position: absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#slide {
+  width: 100vw;
+  height: 74.9vw; /* height:width ratio = 3200/4267 =  */
+  max-height: 100vh;
+  max-width: 133.3vh; /* 4267/3200 = 1.333 */
+  margin: auto;
+  position: absolute;
+  top:0;bottom:0; /* vertical center */
+  left:0;right:0; /* horizontal center */;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

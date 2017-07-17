@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1135.000000, -918.000000)" fill-rule="nonzero">
+            <g id="1498844467_email_mail_envelope_send_message" transform="translate(1135.000000, 918.000000)">
+                <g id="email">
+                    <g id="Group">
+                        <path d="M25,49.4140625 C11.5375,49.4140625 0.5859375,38.4609375 0.5859375,25 C0.5859375,11.5375 11.5375,0.5859375 25,0.5859375 C38.4609375,0.5859375 49.4140625,11.5375 49.4140625,25 C49.4140625,38.4609375 38.4609375,49.4140625 25,49.4140625 Z" id="Shape" fill="#FFFFFF"></path>
+                        <path d="M25,1.171875 C38.1390625,1.171875 48.828125,11.8609375 48.828125,25 C48.828125,38.1390625 38.1390625,48.828125 25,48.828125 C11.8609375,48.828125 1.171875,38.1390625 1.171875,25 C1.171875,11.8609375 11.8609375,1.171875 25,1.171875 L25,1.171875 Z M25,0 C11.1921875,0 0,11.1921875 0,25 C0,38.80625 11.1921875,50 25,50 C38.8078125,50 50,38.80625 50,25 C50,11.1921875 38.8078125,0 25,0 L25,0 Z" id="Shape" fill="#C05A5A"></path>
+                    </g>
+                    <g id="Group" transform="translate(9.375000, 14.062500)" fill="#333333">
+                        <polygon id="Shape" points="0.809375 20.0234375 8.9171875 9.8296875 0.809375 4.8734375"></polygon>
+                        <polygon id="Shape" points="21.09375 10.540625 15.6078125 13.91875 10.1125 10.559375 1.734375 21.09375 29.4796875 21.09375"></polygon>
+                        <polygon id="Shape" points="15.60625 12.2875 30.440625 3.1515625 30.440625 0.78125 0.809375 0.78125 0.809375 3.24375"></polygon>
+                        <polygon id="Shape" points="22.2859375 9.80625 30.440625 20.0671875 30.440625 4.784375"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
