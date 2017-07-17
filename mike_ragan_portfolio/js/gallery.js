@@ -156,11 +156,11 @@ $(document).ready().keydown(function( event ) {
 });
 
 //when swipe left for next
-$("body").on("swipeleft",function(){
+$(document).on("swipeleft",function(){
   next();
 });
 //when swipe right for prev
-$("body").on("swiperight",function(){
+$(document).on("swiperight",function(){
   prev();
 });
 
