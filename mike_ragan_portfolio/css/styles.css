@@ -486,8 +486,7 @@ h1 {
       max-height: 60%; } }
 
 #social {
-  display: flex;
-  padding-bottom: 5%; }
+  display: flex; }
   #social * {
     padding: 5px;
     max-width: 15vw; }
