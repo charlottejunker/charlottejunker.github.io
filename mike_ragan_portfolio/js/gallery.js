@@ -140,7 +140,7 @@ function prev() {
 
 //when next button clicked
 //capture click event
-$next.on('click touchstart', function() {
+$next.click(function() {
   next();
 });
 //when prev button clicked
