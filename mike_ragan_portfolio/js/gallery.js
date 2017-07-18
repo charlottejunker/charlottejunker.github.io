@@ -183,3 +183,14 @@ $(document).ready().keydown(function( event ) {
     location.reload();  }
 
 });
+// 
+// $back.click(function(e){
+//    if(e.target != this) return; // only continue if the target itself has been clicked
+//    $overlay.hide();
+// });
+// //esc button pressed
+// $(document).ready().keydown(function( event ) {
+//   if ( event.which == 27 ) {
+//     $overlay.hide();  }
+//
+// });
