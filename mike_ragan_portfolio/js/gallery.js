@@ -140,7 +140,7 @@ function prev() {
 
 //when next button clicked
 //capture click event
-$next.click(function() {
+$next.on('click touchstart', function() {
   next();
 });
 //when prev button clicked
@@ -183,7 +183,7 @@ $(document).ready().keydown(function( event ) {
     location.reload();  }
 
 });
-// 
+//
 // $back.click(function(e){
 //    if(e.target != this) return; // only continue if the target itself has been clicked
 //    $overlay.hide();
