@@ -507,10 +507,12 @@ h1 {
 
 #arrow-right {
   bottom: 2vh;
-  right: 2vh; }
+  right: 2vh;
+  cursor: pointer; }
 
 #arrow-left {
   bottom: 2vh;
-  left: 2vh; }
+  left: 2vh;
+  cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */
