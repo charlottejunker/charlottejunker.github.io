@@ -140,12 +140,12 @@ function prev() {
 
 //when next button clicked
 //capture click event
-$next.click(function() {
+$next.on("click", function() {
   next();
 });
 //when prev button clicked
 //capture click event
-$prev.click(function(){
+$prev.on("click",function(){
   prev();
 });
 
