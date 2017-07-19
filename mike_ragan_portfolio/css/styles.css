@@ -507,12 +507,14 @@ h1 {
 
 #arrow-right {
   bottom: 2vh;
-  right: 2vh;
-  cursor: pointer; }
+  right: 2vh; }
+  #arrow-right:hover {
+    cursor: pointer; }
 
 #arrow-left {
   bottom: 2vh;
-  left: 2vh;
-  cursor: pointer; }
+  left: 2vh; }
+  #arrow-left:hover {
+    cursor: pointer; }
 
 /*# sourceMappingURL=styles.css.map */

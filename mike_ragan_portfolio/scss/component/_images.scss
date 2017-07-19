@@ -48,11 +48,15 @@
 #arrow-right {
   bottom: $icon-margin;
   right: $icon-margin;
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 #arrow-left {
   bottom: $icon-margin;
   left: $icon-margin;
-  cursor: pointer;
+  &:hover {
+    cursor: pointer;
+  }
 }
