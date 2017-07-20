@@ -165,13 +165,14 @@ $(document).ready().keydown(function( event ) {
 });
 
 // swipe left for next
-
-var gallery = document.getElementById('portfolio-body');
-var activeRegion = ZingTouch.Region(gallery);
-
-activeRegion.bind(gallery, 'swipe', function(event){
-  next();
+$('body').swipeleft(function(e) {
+    next();
 });
+
+$('body').swiperight(function(e) {
+    prev();
+});
+
 
 // //when swipe left for next
 // $(document).on("swipeleft",function(){
