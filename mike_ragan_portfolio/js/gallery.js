@@ -165,21 +165,13 @@ $(document).ready().keydown(function( event ) {
 });
 
 // swipe left for next
-$slide.on("swiperight",function(){
-  prev();
-})
+$('body').swipeleft(function(e) {
+    next();
+});
 
-// .swipeleft(function(e) {
-//     next();
-// });
-
-$slide.on("swipeleft",function(){
-  next();
-})
-
-// .swiperight(function(e) {
-//     prev();
-// });
+$('body').swiperight(function(e) {
+    prev();
+});
 
 
 // //when swipe left for next
