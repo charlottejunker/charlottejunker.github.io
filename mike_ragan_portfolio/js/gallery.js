@@ -1,11 +1,3 @@
-//enable hammerjs
-$("body").hammer().bind("pan", myPanHandler);
-
-const myElement = $("body");
-const hammertime = new Hammer(myElement);
-hammertime.on('pan', function(ev) {
-	console.log(ev);
-});
 
 
 //make social icon div same width as logo in mobile
