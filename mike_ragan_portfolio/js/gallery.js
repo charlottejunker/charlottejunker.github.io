@@ -164,14 +164,20 @@ $(document).ready().keydown(function( event ) {
   }
 });
 
-//when swipe left for next
-$(document).on("swipeleft",function(){
-  next();
+// swipe left for next
+const gallery = document.getElementById('slide');
+Hammer(gallery).on("swipeleft", function () {
+    next();
 });
-//when swipe right for prev
-$(document).on("swiperight",function(){
-  prev();
-});
+
+// //when swipe left for next
+// $(document).on("swipeleft",function(){
+//   next();
+// });
+// //when swipe right for prev
+// $(document).on("swiperight",function(){
+//   prev();
+// });
 
 //hide overlay when:
 //back clicked
