@@ -166,7 +166,7 @@ $(document).ready().keydown(function( event ) {
 
 // swipe left for next
 const gallery = document.getElementById('slide');
-Hammer(gallery).on("swipeleft", function () {
+Hammer(gallery).on("swipeleft", function (event) {
     next();
 });
 
