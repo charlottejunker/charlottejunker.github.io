@@ -165,9 +165,12 @@ $(document).ready().keydown(function( event ) {
 });
 
 // swipe left for next
-const gallery = document.getElementById('slide');
-Hammer(gallery).on("swipeleft", function (event) {
-    next();
+
+var gallery = document.getElementById('portfolio-body');
+var activeRegion = ZingTouch.Region(gallery);
+
+activeRegion.bind(gallery, 'swipe', function(event){
+  next();
 });
 
 // //when swipe left for next
