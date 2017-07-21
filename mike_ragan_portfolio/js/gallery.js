@@ -142,9 +142,7 @@ function prev() {
 
 //when next button clicked
 //capture click event
-$next.on("click", function() {
-  next();
-});
+
 //when prev button clicked
 //capture click event
 $prev.on("click",function(){
@@ -175,13 +173,9 @@ $('body').swiperight(function(e) {
 
 
 // //when swipe left for next
-// $(document).on("swipeleft",function(){
-//   next();
-// });
+  $('body').on('swipeleft', '#overlay', function() { next(); });
 // //when swipe right for prev
-// $(document).on("swiperight",function(){
-//   prev();
-// });
+  $('body').on('swiperight', '#overlay', function() { prev(); });
 
 //hide overlay when:
 //back clicked
