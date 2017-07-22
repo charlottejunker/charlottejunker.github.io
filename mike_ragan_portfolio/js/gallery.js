@@ -12,6 +12,7 @@ $('.project').mousedown(function() {
    $(this).parents().css(
      'background-color', '#fff',
    );
+   console.log("check");
    $(this).siblings().css(
      'color', '#3C3C3B',
    );
@@ -32,14 +33,14 @@ $('.project').mouseup(function() {
 
 //lightbox gallery
 
+const $back = $('#back');
+const $next = $('#arrow-right');
+const $prev = $('#arrow-left');
 const $overlay = $('<div id="overlay"></div>');
 const $slide = $('<div id="slide"></div>');
-const $back = $('<img id="back" src="svg/back.svg" alt="back button">');
-const $next = $('<img id="arrow-right" src="svg/arrow-right.svg" alt="next button">');
-const $prev = $('<img id="arrow-left" src="svg/arrow-left.svg" alt="previous button">');
 
 // add buttons to slide
-$overlay.append($slide).append($back).append($prev).append($next);
+$overlay.append($slide);
 
 //array of project slides
 const $projectGallery = [];
@@ -77,6 +78,8 @@ $(".project").click(function(event){
   //get src of first slide of the div
   const initialSlideSrc = $(this).children(".slide").attr("src");
   const initialSlideColor = $(this).children(".slide").attr("id");
+  //show gallery nav icons
+  $('.gallery-nav').css('display', 'block');
   // add src to slide img
   $slide.css('background-image', 'url(' + initialSlideSrc + ')');
   //recolor overlay to match slide
@@ -86,6 +89,7 @@ $(".project").click(function(event){
   setTimeout(
    function() {
     $("body").append($overlay);
+    $('.gallery-nav').css('display', 'block');
    },
    100);
 })

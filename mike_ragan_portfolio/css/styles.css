@@ -360,7 +360,7 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-#overlay img, #home {
+#home, .gallery-nav {
   position: absolute;
   width: 8%;
   min-width: 40px;
@@ -418,6 +418,9 @@ body {
   color: #fff;
   flex-direction: column;
   align-items: center; }
+
+.gallery-nav {
+  display: none; }
 
 .project h1 {
   margin: 0; }
@@ -494,12 +497,12 @@ h1 {
       width: 30vh;
       margin: 0 0 5vh 5vh; } }
 
-#social a {
-  max-width: 25%; }
-
 #home {
   top: 2vh;
   left: 2vh; }
+
+.gallery-nav {
+  z-index: 1; }
 
 #back {
   top: 2vh;

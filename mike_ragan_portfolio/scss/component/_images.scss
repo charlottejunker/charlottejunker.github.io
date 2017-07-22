@@ -17,22 +17,6 @@
     }
 }
 
-#social {
-
-  a {
-    max-width: 25%;
-  }
-
-  img {
-  }
-
-}
-
-#overlay {
-  img {
-    @extend %nav-icons;
-  }
-}
 
 #home {
   @extend %nav-icons;
@@ -40,6 +24,10 @@
   left: $icon-margin;
 }
 
+.gallery-nav {
+  @extend %nav-icons;
+  z-index: 1;
+}
 #back {
   top: $icon-margin;
   left: $icon-margin;
