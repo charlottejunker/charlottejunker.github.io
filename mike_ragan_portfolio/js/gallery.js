@@ -12,7 +12,6 @@ $('.project').mousedown(function() {
    $(this).parents().css(
      'background-color', '#fff',
    );
-   console.log("check");
    $(this).siblings().css(
      'color', '#3C3C3B',
    );
@@ -78,13 +77,14 @@ $(".project").click(function(event){
   //get src of first slide of the div
   const initialSlideSrc = $(this).children(".slide").attr("src");
   const initialSlideColor = $(this).children(".slide").attr("id");
-  //show gallery nav icons
-  $('.gallery-nav').css('display', 'block');
+
   // add src to slide img
   $slide.css('background-image', 'url(' + initialSlideSrc + ')');
   //recolor overlay to match slide
   $overlay.css('background', initialSlideColor);
   //append first img from div as overlay
+  //show gallery nav icons
+  $('.gallery-nav').css('display', 'block');
 
   setTimeout(
    function() {
@@ -144,12 +144,27 @@ function prev() {
   }
 }
 
+document.addEventListener("tap", function(e) {
+  passive: true
+});
+
+document.addEventListener("swipeleft", function(e) {
+  passive: true
+});
+
+document.addEventListener("swiperight", function(e) {
+  passive: true
+});
+
+
 //when next button clicked
 //capture click event
-
+$next.on("tap",function(){
+  next();
+});
 //when prev button clicked
 //capture click event
-$prev.on("click",function(){
+$prev.on("tap",function(){
   prev();
 });
 
@@ -166,20 +181,16 @@ $(document).ready().keydown(function( event ) {
   }
 });
 
-// swipe left for next
-$('body').swipeleft(function(e) {
-    next();
-});
-
-$('body').swiperight(function(e) {
-    prev();
-});
-
-
 // //when swipe left for next
-  $('body').on('swipeleft', '#overlay', function() { next(); });
+  $('#slide').on('swipeleft', function() {
+    preventDefault();
+    next();
+  });
 // //when swipe right for prev
-  $('body').on('swiperight', '#overlay', function() { prev(); });
+  $('#slide').on('swiperight', function() {
+    preventDefault();
+    prev();
+  });
 
 //hide overlay when:
 //back clicked
