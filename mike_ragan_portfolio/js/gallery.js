@@ -144,16 +144,15 @@ function prev() {
   }
 }
 
-document.addEventListener("tap", function(e) {
-  passive: true
-});
+// document.addEventListener("tap", function(e) {
+// });
 
 document.addEventListener("swipeleft", function(e) {
-  passive: true
+  e.preventDefault();
 });
 
 document.addEventListener("swiperight", function(e) {
-  passive: true
+  e.preventDefault();
 });
 
 
@@ -183,12 +182,10 @@ $(document).ready().keydown(function( event ) {
 
 // //when swipe left for next
   $('#slide').on('swipeleft', function() {
-    e.preventDefault();
     next();
   });
 // //when swipe right for prev
   $('#slide').on('swiperight', function() {
-    e.preventDefault();
     prev();
   });
 
