@@ -183,12 +183,12 @@ $(document).ready().keydown(function( event ) {
 
 // //when swipe left for next
   $('#slide').on('swipeleft', function() {
-    preventDefault();
+    e.preventDefault();
     next();
   });
 // //when swipe right for prev
   $('#slide').on('swiperight', function() {
-    preventDefault();
+    e.preventDefault();
     prev();
   });
 
